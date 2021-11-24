@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Divida__c</fullName>
     <externalId>false</externalId>
-    <label>Dívida</label>
+    <label>Divida</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>

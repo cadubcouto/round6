@@ -2,9 +2,9 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Aceite__c</fullName>
     <defaultValue>false</defaultValue>
-    <description>Usado para informar se o candidato aceitou o desafio</description>
+    <description>Usado para informar se o candidato aceito o desafio.</description>
     <externalId>false</externalId>
-    <inlineHelpText>Usado para informar se o candidato aceitou o desafio</inlineHelpText>
+    <inlineHelpText>Usado para informar se o candidato aceito o desafio.</inlineHelpText>
     <label>Aceite</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

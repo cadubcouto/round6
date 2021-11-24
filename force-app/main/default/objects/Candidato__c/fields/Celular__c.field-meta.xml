@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Celular__c</fullName>
-    <description>Usado para entrar em contato com o candidato</description>
+    <description>Usado para entrar em contato com o Candidato.</description>
     <externalId>false</externalId>
-    <inlineHelpText>Forma de contato</inlineHelpText>
+    <inlineHelpText>Usado para entrar em contato com o Candidato.</inlineHelpText>
     <label>Celular</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Email__c</fullName>
-    <description>usado para entrar em contato com o candidato</description>
+    <description>Email usado para entrar em contato com o candidato.</description>
     <externalId>false</externalId>
-    <inlineHelpText>forma de contato</inlineHelpText>
+    <inlineHelpText>Email usado para entrar em contato com o candidato.</inlineHelpText>
     <label>Email</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

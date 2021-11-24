@@ -143,7 +143,7 @@
     <allowInChatterGroups>true</allowInChatterGroups>
     <compactLayoutAssignment>Jogadores</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Participante do jogo</description>
+    <description>Participante do jogo.</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>false</enableBulkApi>
     <enableFeeds>true</enableFeeds>
@@ -154,7 +154,6 @@
     <enableSharing>false</enableSharing>
     <enableStreamingApi>false</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <gender>Masculine</gender>
     <label>Jogador</label>
     <nameField>
         <displayFormat>Jogador-{000}</displayFormat>
@@ -166,9 +165,7 @@
     <pluralLabel>Jogadores</pluralLabel>
     <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
     <recordTypeTrackHistory>false</recordTypeTrackHistory>
-    <searchLayouts>
-        <massQuickActions>Eliminar</massQuickActions>
-    </searchLayouts>
+    <searchLayouts></searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

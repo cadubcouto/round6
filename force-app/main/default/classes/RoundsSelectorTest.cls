@@ -40,9 +40,9 @@ public with sharing class RoundsSelectorTest {
 
         for (Round__c round : roundsAux) {
             if (round.Id.equals(roundId2)) {
-                System.assertEquals(1, round.Jogadores2__r.size(), 'Só deveria ter 1 jogador no round 2');
+                System.assertEquals(1, round.Jogadores__r.size(), 'Só deveria ter 1 jogador no round 2');
             }
-            for (Jogador__c jog : round.Jogadores2__r) {
+            for (Jogador__c jog : round.Jogadores__r) {
                 if (round.Id.equals(roundId)) {
                     System.assertNotEquals(jog.Id, jog2.Id, 'Jogador 2 não deveria ter retornado nessa query');
                 } else if (round.Id.equals(roundId2)) {

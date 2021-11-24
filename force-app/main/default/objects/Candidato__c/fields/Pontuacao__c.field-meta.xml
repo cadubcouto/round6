@@ -3,13 +3,13 @@
     <fullName>Pontuacao__c</fullName>
     <description>Pontuação baseada na idade e na dívida.</description>
     <externalId>false</externalId>
-    <formula>FLOOR(ValorDivida__c /100) + 40000 - IF(Idade__c &gt; 80,40000,( ABS( Idade__c -40) * 1000))</formula>
+    <formula>FLOOR(ValorDivida__c /100) + 40000 - IF(idade__c &gt; 80,40000,( ABS( idade__c -40) * 1000))</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <inlineHelpText>Pontuação baseada na idade e na dívida.</inlineHelpText>
     <label>Pontuação</label>
     <precision>18</precision>
     <required>false</required>
-    <scale>0</scale>
+    <scale>2</scale>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Number</type>

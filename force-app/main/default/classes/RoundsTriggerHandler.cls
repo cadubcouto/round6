@@ -8,7 +8,7 @@ public without sharing class RoundsTriggerHandler {
         List<Jogador__c> jogadoresToUpdate = new List<Jogador__c>();
 
         for (Round__c record : records) {
-            afterUpdate(record, oldMap.get(record.Id), recordsWithJogadoresMap.get(record.Id).Jogadores2__r, jogadoresToUpdate);
+            afterUpdate(record, oldMap.get(record.Id), recordsWithJogadoresMap.get(record.Id).Jogadores__r, jogadoresToUpdate);
         }
 
         update jogadoresToUpdate;
