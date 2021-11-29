@@ -1,3 +1,4 @@
+
 public without sharing class RoundsSelector {
 
     public static List<Round__c> selectByRoundsIdsWithJogadores(Set<Id> ids) {
@@ -12,5 +13,27 @@ public without sharing class RoundsSelector {
             WHERE Id IN :ids
         ];
     }
+
+    public static List<Round__c> selectRoundsByIdStatusJogadoresVivos(Set<Id> roundsIds, Set<String> statusList) {
+        return [
+            SELECT 
+                Id,
+                Vencedor__c,
+                (SELECT Id FROM Jogadores__r WHERE Eliminado__c = false)
+            FROM Round__c
+            WHERE 
+                    Id = :roundsIds          
+                AND Status__c IN :statusList
+        ];
+    }
+
+    public static List<Round__c> selectRoundEmAndamentoComJogadoresNaoEliminados() {
+        return [
+            SELECT Id, Name, (SELECT Id, Forca__c, Inteligencia__c, Velocidade__c FROM Jogadores__r WHERE Eliminado__c = false)
+            FROM Round__c 
+            WHERE Status__c = 'Em Andamento'
+        ]; 
+    }
+
 
 }
