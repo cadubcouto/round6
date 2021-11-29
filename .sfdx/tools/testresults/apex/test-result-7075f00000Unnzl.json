@@ -1,0 +1,118 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 5,
+    "passing": 5,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Mon Nov 29 2021 11:22:39 AM",
+    "testExecutionTimeInMs": 119,
+    "testTotalTimeInMs": 119,
+    "commandTimeInMs": 613,
+    "hostname": "https://brave-koala-k7mxbf-dev-ed.my.salesforce.com",
+    "orgId": "00D5f000005tNoPEAU",
+    "username": "carlos.couto2@c2hub.com.br",
+    "testRunId": "7075f00000Unnzl",
+    "userId": "0055f000005q4u1AAA"
+  },
+  "tests": [
+    {
+      "id": "07M5f000000QjyVEAS",
+      "queueItemId": "7095f000000uSQQAA2",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075f00000UnnzlAAB",
+      "methodName": "testGenerateRandomIntegerBetween",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5f00000OcHfbAAF",
+        "name": "UtilsTest",
+        "namespacePrefix": null,
+        "fullName": "UtilsTest"
+      },
+      "runTime": 88,
+      "testTimestamp": "2021-11-29T14:22:39.000+0000",
+      "fullName": "UtilsTest.testGenerateRandomIntegerBetween"
+    },
+    {
+      "id": "07M5f000000QjyWEAS",
+      "queueItemId": "7095f000000uSQQAA2",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075f00000UnnzlAAB",
+      "methodName": "testSetValue",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5f00000OcHfbAAF",
+        "name": "UtilsTest",
+        "namespacePrefix": null,
+        "fullName": "UtilsTest"
+      },
+      "runTime": 7,
+      "testTimestamp": "2021-11-29T14:22:40.000+0000",
+      "fullName": "UtilsTest.testSetValue"
+    },
+    {
+      "id": "07M5f000000QjyXEAS",
+      "queueItemId": "7095f000000uSQQAA2",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075f00000UnnzlAAB",
+      "methodName": "testSetValueException",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5f00000OcHfbAAF",
+        "name": "UtilsTest",
+        "namespacePrefix": null,
+        "fullName": "UtilsTest"
+      },
+      "runTime": 11,
+      "testTimestamp": "2021-11-29T14:22:40.000+0000",
+      "fullName": "UtilsTest.testSetValueException"
+    },
+    {
+      "id": "07M5f000000QjyYEAS",
+      "queueItemId": "7095f000000uSQQAA2",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075f00000UnnzlAAB",
+      "methodName": "testeGetRondomJogadorOfListAndRemove",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5f00000OcHfbAAF",
+        "name": "UtilsTest",
+        "namespacePrefix": null,
+        "fullName": "UtilsTest"
+      },
+      "runTime": 7,
+      "testTimestamp": "2021-11-29T14:22:40.000+0000",
+      "fullName": "UtilsTest.testeGetRondomJogadorOfListAndRemove"
+    },
+    {
+      "id": "07M5f000000QjyZEAS",
+      "queueItemId": "7095f000000uSQQAA2",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075f00000UnnzlAAB",
+      "methodName": "testeGetRondomJogadorOfListAndRemoveWithListNull",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5f00000OcHfbAAF",
+        "name": "UtilsTest",
+        "namespacePrefix": null,
+        "fullName": "UtilsTest"
+      },
+      "runTime": 6,
+      "testTimestamp": "2021-11-29T14:22:40.000+0000",
+      "fullName": "UtilsTest.testeGetRondomJogadorOfListAndRemoveWithListNull"
+    }
+  ]
+}

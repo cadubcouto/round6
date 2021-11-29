@@ -1,0 +1,88 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 3,
+    "passing": 2,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "67%",
+    "failRate": "33%",
+    "skipRate": "0%",
+    "testStartTime": "Mon Nov 29 2021 10:37:43 AM",
+    "testExecutionTimeInMs": 40,
+    "testTotalTimeInMs": 40,
+    "commandTimeInMs": 668,
+    "hostname": "https://brave-koala-k7mxbf-dev-ed.my.salesforce.com",
+    "orgId": "00D5f000005tNoPEAU",
+    "username": "carlos.couto2@c2hub.com.br",
+    "testRunId": "7075f00000Unl1P",
+    "userId": "0055f000005q4u1AAA"
+  },
+  "tests": [
+    {
+      "id": "07M5f000000Qjy6EAC",
+      "queueItemId": "7095f000000uSQ1AAM",
+      "stackTrace": "Class.UtilsTest.testGenerateRandomIntegerBetween: line 47, column 1",
+      "message": "System.AssertException: Assertion Failed: O Resultado >> 797 não esta entre >> 900 e 797: Expected: true, Actual: false",
+      "asyncApexJobId": "7075f00000Unl1PAAR",
+      "methodName": "testGenerateRandomIntegerBetween",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5f00000OcHfbAAF",
+        "name": "UtilsTest",
+        "namespacePrefix": null,
+        "fullName": "UtilsTest"
+      },
+      "runTime": 24,
+      "testTimestamp": "2021-11-29T13:37:43.000+0000",
+      "fullName": "UtilsTest.testGenerateRandomIntegerBetween",
+      "diagnostic": {
+        "exceptionMessage": "System.AssertException: Assertion Failed: O Resultado >> 797 não esta entre >> 900 e 797: Expected: true, Actual: false",
+        "exceptionStackTrace": "Class.UtilsTest.testGenerateRandomIntegerBetween: line 47, column 1",
+        "className": "UtilsTest",
+        "compileProblem": "",
+        "lineNumber": 47,
+        "columnNumber": 1
+      }
+    },
+    {
+      "id": "07M5f000000Qjy7EAC",
+      "queueItemId": "7095f000000uSQ1AAM",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075f00000Unl1PAAR",
+      "methodName": "testSetValue",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5f00000OcHfbAAF",
+        "name": "UtilsTest",
+        "namespacePrefix": null,
+        "fullName": "UtilsTest"
+      },
+      "runTime": 10,
+      "testTimestamp": "2021-11-29T13:37:43.000+0000",
+      "fullName": "UtilsTest.testSetValue"
+    },
+    {
+      "id": "07M5f000000Qjy8EAC",
+      "queueItemId": "7095f000000uSQ1AAM",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075f00000Unl1PAAR",
+      "methodName": "testSetValueException",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5f00000OcHfbAAF",
+        "name": "UtilsTest",
+        "namespacePrefix": null,
+        "fullName": "UtilsTest"
+      },
+      "runTime": 6,
+      "testTimestamp": "2021-11-29T13:37:43.000+0000",
+      "fullName": "UtilsTest.testSetValueException"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 3,
+    "passing": 3,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Mon Nov 29 2021 10:50:55 AM",
+    "testExecutionTimeInMs": 39,
+    "testTotalTimeInMs": 39,
+    "commandTimeInMs": 549,
+    "hostname": "https://brave-koala-k7mxbf-dev-ed.my.salesforce.com",
+    "orgId": "00D5f000005tNoPEAU",
+    "username": "carlos.couto2@c2hub.com.br",
+    "testRunId": "7075f00000UnlnO",
+    "userId": "0055f000005q4u1AAA"
+  },
+  "tests": [
+    {
+      "id": "07M5f000000QjyBEAS",
+      "queueItemId": "7095f000000uSQ6AAM",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075f00000UnlnOAAR",
+      "methodName": "testGenerateRandomIntegerBetween",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5f00000OcHfbAAF",
+        "name": "UtilsTest",
+        "namespacePrefix": null,
+        "fullName": "UtilsTest"
+      },
+      "runTime": 25,
+      "testTimestamp": "2021-11-29T13:50:55.000+0000",
+      "fullName": "UtilsTest.testGenerateRandomIntegerBetween"
+    },
+    {
+      "id": "07M5f000000QjyCEAS",
+      "queueItemId": "7095f000000uSQ6AAM",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075f00000UnlnOAAR",
+      "methodName": "testSetValue",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5f00000OcHfbAAF",
+        "name": "UtilsTest",
+        "namespacePrefix": null,
+        "fullName": "UtilsTest"
+      },
+      "runTime": 7,
+      "testTimestamp": "2021-11-29T13:50:56.000+0000",
+      "fullName": "UtilsTest.testSetValue"
+    },
+    {
+      "id": "07M5f000000QjyDEAS",
+      "queueItemId": "7095f000000uSQ6AAM",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075f00000UnlnOAAR",
+      "methodName": "testSetValueException",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5f00000OcHfbAAF",
+        "name": "UtilsTest",
+        "namespacePrefix": null,
+        "fullName": "UtilsTest"
+      },
+      "runTime": 7,
+      "testTimestamp": "2021-11-29T13:50:56.000+0000",
+      "fullName": "UtilsTest.testSetValueException"
+    }
+  ]
+}

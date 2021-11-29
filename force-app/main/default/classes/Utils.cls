@@ -13,27 +13,12 @@ public without sharing class Utils {
         return ids;
     }
 
-
+ 
     public static Integer generateRandomIntegerBetween(Integer min, Integer max) {
+        if (min > max) {
+            min = max;
+        }
         return ( Integer.valueof(Math.random() * (max - min + 1) + min));
-    }
-
-
-    public static SObject getRondomElementOfListAndRemove(List<SObject> sObjs) {
-        Integer index;
-        
-        if (sObjs.size() == 0) {
-            return null;
-        } else if (sObjs.size() == 1) {
-            index = 0;
-        } else {
-            index = generateRandomIntegerBetween(0, (sObjs.size() - 1));
-        } 
-        
-        SObject myObj = sObjs.get(index);
-        sObjs.remove(index);
-        
-        return myObj;
     }
 
     public static Jogador__c getRondomJogadorOfListAndRemove(List<Jogador__c> jogadores) {
