@@ -63,7 +63,7 @@ public with sharing class UtilsTest {
 
 
     @isTest
-    static void testeGetRondomJogadorOfListAndRemove() {
+    static void testGetRondomJogadorOfListAndRemove() {
         Jogador__c jog1 = new Jogador__c(); 
         Jogador__c jog2 = new Jogador__c(); 
         Jogador__c jog3 = new Jogador__c(); 
@@ -84,7 +84,7 @@ public with sharing class UtilsTest {
     }
 
     @isTest
-    static void testeGetRondomJogadorOfListAndRemoveWithListNull() {
+    static void testGetRondomJogadorOfListAndRemoveWithListNull() {
         List<Jogador__c> jogadores = new List<Jogador__c>();
 
         Test.startTest();

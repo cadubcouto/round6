@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Mon Nov 29 2021 3:22:19 PM",
+    "testExecutionTimeInMs": 15,
+    "testTotalTimeInMs": 15,
+    "commandTimeInMs": 1126,
+    "hostname": "https://brave-koala-k7mxbf-dev-ed.my.salesforce.com",
+    "orgId": "00D5f000005tNoPEAU",
+    "username": "carlos.couto2@c2hub.com.br",
+    "testRunId": "7075f00000Uo6qE",
+    "userId": "0055f000005q4u1AAA"
+  },
+  "tests": [
+    {
+      "id": "07M5f000000QkfKEAS",
+      "queueItemId": "7095f000000uU2bAAE",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075f00000Uo6qEAAR",
+      "methodName": "testgetPointsAtaque",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5f00000R4kj2AAB",
+        "name": "AssassinatoHandlerTest",
+        "namespacePrefix": null,
+        "fullName": "AssassinatoHandlerTest"
+      },
+      "runTime": 15,
+      "testTimestamp": "2021-11-29T18:22:19.000+0000",
+      "fullName": "AssassinatoHandlerTest.testgetPointsAtaque"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<aura:component implements="force:lightningQuickActionWithoutHeader, force:hasRecordId">
+
+    <aura:attribute name="recordId" type="String" />
+    <aura:attribute name="nome" type="String" default="Carlos" />
+
+    teste
+
+    <div class="container">
+        <span>Record Id:{!v.recortdId}</span>
+        <br/>
+        <span>Nome: {!v.nome}</span>
+    </div>
+    
+
+
+
+
+</aura:component>	

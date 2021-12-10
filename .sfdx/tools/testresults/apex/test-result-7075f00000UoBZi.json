@@ -1,0 +1,88 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 3,
+    "passing": 2,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "67%",
+    "failRate": "33%",
+    "skipRate": "0%",
+    "testStartTime": "Mon Nov 29 2021 4:46:19 PM",
+    "testExecutionTimeInMs": 40,
+    "testTotalTimeInMs": 40,
+    "commandTimeInMs": 539,
+    "hostname": "https://brave-koala-k7mxbf-dev-ed.my.salesforce.com",
+    "orgId": "00D5f000005tNoPEAU",
+    "username": "carlos.couto2@c2hub.com.br",
+    "testRunId": "7075f00000UoBZi",
+    "userId": "0055f000005q4u1AAA"
+  },
+  "tests": [
+    {
+      "id": "07M5f000000Qkq3EAC",
+      "queueItemId": "7095f000000uU43AAE",
+      "stackTrace": "Class.AssassinatoHander.tryKill: line 12, column 1\nClass.AssassinatoHandlerTest.testTryKill: line 51, column 1",
+      "message": "System.SObjectException: SObject row was retrieved via SOQL without querying the requested field: Round__c.Name",
+      "asyncApexJobId": "7075f00000UoBZiAAN",
+      "methodName": "testTryKill",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5f00000R4kj2AAB",
+        "name": "AssassinatoHandlerTest",
+        "namespacePrefix": null,
+        "fullName": "AssassinatoHandlerTest"
+      },
+      "runTime": 27,
+      "testTimestamp": "2021-11-29T19:46:20.000+0000",
+      "fullName": "AssassinatoHandlerTest.testTryKill",
+      "diagnostic": {
+        "exceptionMessage": "System.SObjectException: SObject row was retrieved via SOQL without querying the requested field: Round__c.Name",
+        "exceptionStackTrace": "Class.AssassinatoHander.tryKill: line 12, column 1\nClass.AssassinatoHandlerTest.testTryKill: line 51, column 1",
+        "className": "AssassinatoHander",
+        "compileProblem": "",
+        "lineNumber": 12,
+        "columnNumber": 1
+      }
+    },
+    {
+      "id": "07M5f000000Qkq4EAC",
+      "queueItemId": "7095f000000uU43AAE",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075f00000UoBZiAAN",
+      "methodName": "testgetPointsAtaque",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5f00000R4kj2AAB",
+        "name": "AssassinatoHandlerTest",
+        "namespacePrefix": null,
+        "fullName": "AssassinatoHandlerTest"
+      },
+      "runTime": 6,
+      "testTimestamp": "2021-11-29T19:46:20.000+0000",
+      "fullName": "AssassinatoHandlerTest.testgetPointsAtaque"
+    },
+    {
+      "id": "07M5f000000Qkq5EAC",
+      "queueItemId": "7095f000000uU43AAE",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075f00000UoBZiAAN",
+      "methodName": "testgetPointsDefesa",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p5f00000R4kj2AAB",
+        "name": "AssassinatoHandlerTest",
+        "namespacePrefix": null,
+        "fullName": "AssassinatoHandlerTest"
+      },
+      "runTime": 7,
+      "testTimestamp": "2021-11-29T19:46:20.000+0000",
+      "fullName": "AssassinatoHandlerTest.testgetPointsDefesa"
+    }
+  ]
+}

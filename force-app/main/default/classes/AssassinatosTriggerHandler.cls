@@ -21,6 +21,7 @@ public with sharing class AssassinatosTriggerHandler {
     }
 
     private static void afterInsert(Jogador__c jogador) {
+        // Corrigir somente incluir morte (já tratado na trigger Jogador)
         Utils.setValue(jogador, Jogador__c.DataMorte__c, System.now());
         Utils.setValue(jogador, Jogador__c.Eliminado__c, true);
     }
