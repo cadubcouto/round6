@@ -1,0 +1,14 @@
+<template>
+    <div class="slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_12-of-12 slds-p-bottom_small">
+        
+        <template for:each={participantes} for:item="participante">
+            
+            <c-participante-container
+            key={participante.Id}
+            participante={participante}
+            ></c-participante-container>
+        
+        </template>
+    
+    </div>
+</template>

@@ -47,5 +47,16 @@ public without sharing class RoundsSelector {
         ];
     }
 
+    public static List<Round__c> selectJogadoresNaoEliminadosFromSpecificRoundEmAndamento(Id id) {
+        return [
+            SELECT Id, Name, (SELECT Id, Forca__c, Inteligencia__c, Velocidade__c FROM Jogadores__r WHERE Eliminado__c = false)
+            FROM Round__c 
+            WHERE (Status__c = 'Em Andamento' AND Round__c.Id = :id)
+        ]; 
+    }
+
+
+
+  
 
 }

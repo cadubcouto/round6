@@ -1,0 +1,51 @@
+<template>
+
+  <template if:true={loaded}>
+    <template for:each={partidas} for:item="partida">
+      <div class="slds-p-vertical_x-small slds-p-horizontal_x-small" key={partida.Id}>
+        <lightning-card padding="around-small">
+          <lightning-layout vertical-align="end">
+            <lightning-layout-item flexibility="auto">
+              <lightning-card  title={partida.Name}>
+                  <p class="slds-p-horizontal_small">Número de Jogadores: {partida.TotalJogadores__c}</p>
+                  <p class="slds-p-horizontal_small">Número de Jogadores Eliminados: {partida.TotalJogadoresEliminados__c}</p>
+                  <p class="slds-p-horizontal_small">Data/Hora Início: &nbsp;
+                    <lightning-formatted-date-time value={partida.InicioPartida__c} year="numeric" month="numeric" day="numeric" hour="2-digit" minute="2-digit"  hour12="false">
+                    </lightning-formatted-date-time>
+                  </p>
+                  <p class="slds-p-horizontal_small">Data/Hora Fim: &nbsp;
+                    <lightning-formatted-date-time value={partida.TerminoPartida__c} year="numeric" month="numeric" day="numeric" hour="2-digit" minute="2-digit"  hour12="false">
+                    </lightning-formatted-date-time>
+                  </p>
+                  <c-participantes-container  partidaid={partida.Id}></c-participantes-container>
+                </lightning-card>
+              </lightning-layout-item>
+          </lightning-layout>
+
+            <div class="slds-p-vertical_x-small slds-p-horizontal_x-small">
+              <lightning-layout-item flexibility="auto, no-grow" padding="around-big">
+                <lightning-button
+                  label="Iniciar Partida"
+                  title=""
+                  variant="brand"
+                  onclick={handleClickPartida}
+                  class="slds-m-left_x-big"
+                ></lightning-button>
+              </lightning-layout-item>
+              <lightning-layout-item flexibility="auto, no-grow" padding="around-small">
+                <lightning-button
+                  label="Simular Partida"
+                  title="2"
+                  variant="brand"
+                  onclick={handleClickSimula}
+                ></lightning-button> 
+              </lightning-layout-item>
+            </div>
+
+        </lightning-card> 
+      </div>
+    </template>  
+  </template>  
+
+</template>
+
